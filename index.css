@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body {
+  background-color: #ccacb8;
+}
+
+h1 {
+  font-family: 'IBM Plex Serif', serif;
+  color: white;
+  margin-left: 30px;
+}
+
+#author {
+  font-family: 'IBM Plex Serif', serif;
+  color: white;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.calculator {
+  padding: 5px;
+  background: black;
+  width: 336px;
+  position: relative;
+  margin: auto;
+  margin-top: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.formula-display {
+  background-color: black;
+  color: orange;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 20px;
+  text-align: right;
+  height: 20px;
+}
+
+.result-display {
+  background-color: black;
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+  font-size: 30px;
+  text-align: right;
+}
+
+button {
+  color: white;
+  background-color: grey;
+  height: 65px;
+  width: 80px;
+  position: relative;
+  outline: 1px solid black;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+ button:hover {
+		color: black;
+		background-color: white;
+ }
+
+
+.ac-button {
+  color: white;
+  height: 65px;
+  width: 164px;
+  position: relative;
+  background-color: rgb(172, 57, 57);
+}
+.ac-button:hover {
+		color: white;
+		background-color: #e3242b;
+ }
+
+.zero-button {
+  color: white;
+  height: 65px;
+  width: 164px;
+  position: relative;
+  background-color: grey;
+}
+.zero-button:hover {
+		color: black;
+		background-color: white;
+ }
+
+#equals {
+  color: white;
+  height: 133px;
+  width: 80px;
+  background-color: rgb(0, 68, 102);
+  position: absolute;
+  margin: 2px;
+}
+#equals:hover {
+		color: white;
+		background-color: #0492c2;
+ }
