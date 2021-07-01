@@ -1,5 +1,5 @@
-# JavaScript-Calculator-FreeCodeCamp
-A JavaScript Calculator project
+# JavaScript Calculator
+A JavaScript Calculator project - FreeCodeCamp
 
 ## How to run
 - install serve by running 
